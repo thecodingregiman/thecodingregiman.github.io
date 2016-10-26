@@ -16,6 +16,9 @@ img {
 
 /* cover */
 
+
+
+
 #cover {
     background: #222 url('img/blackandwhite.jpg') center center no-repeat;
     background-size: cover;
@@ -26,7 +29,7 @@ img {
     align-items: center;
     
 }
-
+ 
 
 #cover-caption {
     width: 100%;
