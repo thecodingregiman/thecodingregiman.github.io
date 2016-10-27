@@ -15,10 +15,6 @@ img {
 }
 
 /* cover */
-
-
-
-
 #cover {
     background: #222 url('img/blackandwhite.jpg') center center no-repeat;
     background-size: cover;
@@ -84,4 +80,20 @@ hr {
     margin-bottom: 0.5em;
     padding: .3em;
    
+}
+
+.fadeeffect img{
+    transition: all .2s ease-in-out
+}
+
+.fadeeffect:hover img{
+    opacity: .8;
+    transform: scale(.97);
+}
+
+
+.fadeeffect img:hover {
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: 0 0 7px rgba(0,0,0, .5);
 }
